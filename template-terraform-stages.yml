@@ -28,7 +28,7 @@ stages:
     #   displayName: install Terraform v0.12.28
     #   inputs:
     #     terraformVersion: '0.12.28'
-    - task: charleszipp.azure-pipelines-tasks-terraform.azure-pipelines-tasks-terraform-installer.TerraformInstaller, ms-devlabs.custom-terraform-tasks.custom-terraform-installer-task.TerraformInstaller
+    - task: charleszipp.azure-pipelines-tasks-terraform.azure-pipelines-tasks-terraform-installer.TerraformInstaller, ms-devlabs.custom-terraform-tasks.custom-terraform-installer-task.TerraformInstaller@2
       displayName: Install Terraform
       inputs:
         terraformVersion: "latest"
